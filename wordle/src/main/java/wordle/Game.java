@@ -80,7 +80,7 @@ public class Game {
 
     public String FinPartie(Word wordenter, int nbessaie, boolean find, Color couleur) {
         if (find) {
-            return "Felicitations\nLe mot était : " + couleur.getGreen() + wordenter.getWordString() + couleur.ClearColor() +
+            return "Felicitations\nLe mot etait : " + couleur.getGreen() + wordenter.getWordString() + couleur.ClearColor() +
                    "\nVous l'avez trouve en " + (nbessaie + 1) + " essais";
         } else {
             return "Dommage\nLe mot était : " + couleur.getRed() + wordenter.getWordString() + couleur.ClearColor();
