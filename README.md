@@ -20,12 +20,13 @@ Le projet **Wordle Game** est une implémentation en Java du célèbre jeu **Wor
 Pour lancer le projet, suivez ces étapes :
 
 1. Clonez le repository et ouvrez le projet dans votre IDE préféré.
-2. Compilez le projet avec Maven :
+2. Placez-vous dans le répertoire contenant le fichier pom.xml (Wordle/wordle),
+3. Compilez le projet avec Maven :
     ```bash
     mvn clean install
     ```
 
-3. Placez-vous dans le répertoire contenant le fichier pom.xml (Wordle/wordle), puis exécutez la commande suivante pour démarrer le jeu :
+4. Exécutez la commande suivante pour démarrer le jeu :
     ```bash
     mvn exec:java 
     ```
