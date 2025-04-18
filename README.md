@@ -47,4 +47,4 @@ Après avoir générer les tests unitaires, il faut génèrer la couverture. Pou
 mvn jacoco:report
 ```
 
-Le rapport sera généré dans le répertoire target/jacoco/. Ouvrez le fichier index.html pour visualiser la couverture de code.
+Le rapport sera généré dans le répertoire target/site/jacoco/. Ouvrez le fichier index.html pour visualiser la couverture de code.
